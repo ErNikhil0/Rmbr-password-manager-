@@ -47,3 +47,46 @@ A secure and efficient password manager built with the MERN stack (MongoDB, Expr
 
 ### Database (MERN Version)
 - **MongoDB**: For secure storage of passwords.
+
+### MERN Version
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/password-vault.git
+   cd password-vault
+   ```
+
+2. **Install Dependencies**:
+   - Frontend:
+     ```bash
+     cd client
+     npm install
+     ```
+   - Backend:
+     ```bash
+     cd ../server
+     npm install
+     ```
+
+3. **Setup Environment Variables**:
+   - Create a `.env` file in the `server` directory with the following:
+     ```env
+     PORT=5000
+     MONGO_URI=your_mongo_connection_string
+     JWT_SECRET=your_jwt_secret
+     ```
+
+4. **Run the Application**:
+   - Backend:
+     ```bash
+     cd server
+     npm start
+     ```
+   - Frontend:
+     ```bash
+     cd client
+     npm start
+     ```
+
+5. **Access the App**:
+   Open your browser and navigate to `http://localhost:3000`.
