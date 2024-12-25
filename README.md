@@ -20,6 +20,27 @@ A secure and efficient password manager built with the MERN stack (MongoDB, Expr
 - **React**: For building the UI.
 - **Tailwind CSS**: For modern, responsive styling.
 
+
+## Installation
+
+### Local Storage Version
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/password-vault.git
+   cd password-vault
+   ```
+2. **Install Dependencies**:
+   ```bash
+   cd client
+   npm install
+   ```
+3. **Run the Application**:
+   ```bash
+   npm start
+   ```
+4. **Access the App**:
+   Open your browser and navigate to `http://localhost:3000`.
 ### Backend (MERN Version)
 - **Express.js**: For handling server-side logic and APIs.
 - **Node.js**: Runtime environment for backend development.
