@@ -14,8 +14,7 @@ const Manager = () => {
         if (passwords) {
             setPasswordArray(JSON.parse(passwords))
         }
-
-
+        
     }, [])
 
     const copyText = (text) => {
